@@ -1,6 +1,6 @@
 function greenYards (input) {
 
-    let squareMeters = (input[0]);
+    let squareMeters = Number(input[0]);
     let price = squareMeters * 7.61;
     let discount = 0.18 * price;
     let finalPriceForTheProduct = price - discount;
